@@ -5,16 +5,8 @@ from os import system as s
 from time import sleep as zz
 import pyautogui as pg
 
-# search=input("Search: ")
-# print('just a moment. .. ...')
-
 # ------------
-
 url="https://www.monkeytype.com"
-# driver=webdriver.Chrome('required/chromedriver')
-# driver.set_window_size(500,500)
-# driver.get(url)
-
 # ------------
 
 
