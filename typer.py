@@ -17,7 +17,7 @@ with webdriver.Chrome('required/chromedriver') as driver:
 	print(driver.title)
 	while True:
 		for i in range(20):
-			main=driver.find_element(By.XPATH, f'//*[@id="words"]/div[{(i+1)}]')
+			main=driver.find_element(By.XPATH, f'//*[@id="word-0"]/span')
 			print(f'word: { main.text}')
 			for letter in main.text:
 				pg.write(letter)
